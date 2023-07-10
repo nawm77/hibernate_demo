@@ -1,5 +1,6 @@
 package org.example.Task2;
 
+import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 
 import java.math.BigDecimal;

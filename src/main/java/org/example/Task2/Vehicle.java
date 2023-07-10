@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
-@MappedSuperclass
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
 abstract class Vehicle {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
