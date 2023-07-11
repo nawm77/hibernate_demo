@@ -9,17 +9,6 @@ public class Main {
         try (EntityManagerFactory emf = Persistence
                 .createEntityManagerFactory("hibernate"); EntityManager em = emf
                 .createEntityManager()){
-            Vehicle veh = new Vehicle();
-
-            try {
-                em.getTransaction().begin();
-                em.persist(veh);
-                em.getTransaction().commit();
-            } catch (Exception e) {
-                if (em.getTransaction() != null)
-                    em.getTransaction().rollback();
-                throw e;
-            }
         }
     }
 }
