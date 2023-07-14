@@ -6,22 +6,27 @@ import java.math.BigDecimal;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@Table(name = "vehicle")
 @DiscriminatorColumn(name = "DTYPE")
-public abstract class Vehicle {
+abstract class Vehicle {
     @Id
-    @GeneratedValue(strategy = GenerationType.TABLE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
-    @Column(insertable = false, updatable = false)
+    @Column(name = "type", updatable = false, nullable = false)
     private String DTYPE;
+    @Column(name = "fuel_type", nullable = false)
     private String fuel_type;
-    private String model;
+    @Column(name = "price", scale = 2, precision = 19, nullable = false)
     private BigDecimal price;
-    public Vehicle(){}
+    @Column(name = "model", nullable = false)
+    private String model;
 
-    public Vehicle(String DTYPE, String fuel_type, String model, BigDecimal price) {
-        this.DTYPE = DTYPE;
+    public Vehicle(String type, String fuel_type, BigDecimal price, String model) {
+        this.DTYPE = type;
         this.fuel_type = fuel_type;
-        this.model = model;
         this.price = price;
+        this.model = model;
     }
+    public Vehicle(){}
 }

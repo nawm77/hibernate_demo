@@ -1,17 +1,17 @@
-//package org.example.Task1;
-//
-//import jakarta.persistence.Entity;
-//
-//import java.math.BigDecimal;
-//
-//@Entity
-//class Bike extends Vehicle {
-//    private final static String TYPE = "Bike";
-//
-//    public Bike() {
-//    }
-//
-//    public Bike(String model, BigDecimal price, String fuelType) {
-//        super(TYPE, model, price, fuelType);
-//    }
-//}
+package org.example.Task1;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+import java.math.BigDecimal;
+
+@Entity
+@Table(name = "Bike")
+public class Bike extends Vehicle {
+    private final static String type = "Bike";
+    public Bike(String fuel_type, BigDecimal price, String model) {
+        super(type, fuel_type, price, model);
+    }
+    public Bike() {
+    }
+}

@@ -1,68 +1,31 @@
-//package org.example.Task1;
-//
-//import jakarta.persistence.*;
-//
-//import java.math.BigDecimal;
-//
-//@Entity
-//@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-//abstract class Vehicle {
-//    public Vehicle() {
-//        this.type = this.getClass().getSimpleName();
-//    }
-//
-//    public Vehicle(String type, String model, BigDecimal price, String fuelType) {
-//        this.type = type;
-//        this.model = model;
-//        this.price = price;
-//        this.fuelType = fuelType;
-//    }
-//
-//    @Id
-//    @GeneratedValue(strategy = GenerationType.TABLE)
-//    private Long id;
-//    private String type;
-//    private String model;
-//    private BigDecimal price;
-//    private String fuelType;
-//
-//    public Long getId() {
-//        return id;
-//    }
-//
-//    public void setId(Long id) {
-//        this.id = id;
-//    }
-//
-//    public String getType() {
-//        return type;
-//    }
-//
-//    public void setType(String type) {
-//        this.type = type;
-//    }
-//
-//    public String getModel() {
-//        return model;
-//    }
-//
-//    public void setModel(String model) {
-//        this.model = model;
-//    }
-//
-//    public BigDecimal getPrice() {
-//        return price;
-//    }
-//
-//    public void setPrice(BigDecimal price) {
-//        this.price = price;
-//    }
-//
-//    public String getFuelType() {
-//        return fuelType;
-//    }
-//
-//    public void setFuelType(String fuelType) {
-//        this.fuelType = fuelType;
-//    }
-//}
+package org.example.Task1;
+
+import jakarta.persistence.*;
+
+import java.math.BigDecimal;
+
+@Entity
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@Table(name = "vehicle")
+abstract class Vehicle {
+    @Id
+    @GeneratedValue(strategy = GenerationType.TABLE)
+    @Column(name = "id")
+    private Long id;
+    @Column(name = "type", updatable = false, nullable = false)
+    private String type;
+    @Column(name = "fuel_type", nullable = false)
+    private String fuel_type;
+    @Column(name = "price", scale = 2, precision = 19, nullable = false)
+    private BigDecimal price;
+    @Column(name = "model", nullable = false)
+    private String model;
+
+    public Vehicle(String type, String fuel_type, BigDecimal price, String model) {
+        this.type = type;
+        this.fuel_type = fuel_type;
+        this.price = price;
+        this.model = model;
+    }
+    public Vehicle(){}
+}

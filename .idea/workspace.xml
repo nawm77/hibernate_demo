@@ -4,12 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52500ead-8e75-4716-a4db-b2b4b62974f9" name="Changes" comment="init">
+    <list default="true" id="52500ead-8e75-4716-a4db-b2b4b62974f9" name="Changes" comment="Add custom inheritance for Task 3">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e33d04e4-39e1-47d6-ad0c-75d832ee291b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e33d04e4-39e1-47d6-ad0c-75d832ee291b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e33d04e4-39e1-47d6-ad0c-75d832ee291b/storage_v2/_src_/database/hibernate.Upgeyg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e33d04e4-39e1-47d6-ad0c-75d832ee291b/storage_v2/_src_/database/hibernate.Upgeyg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Truck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task2/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task2/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task3/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task3/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +49,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ilyachaynichkov/IdeaProjects/HibernateHometask/src/main/resources/META-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ilyachaynichkov/IdeaProjects/HibernateHometask/src/main/java/org/example/Task1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/Task3" />
       <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
     </key>
   </component>
@@ -99,8 +118,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.org.example.Task2.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.example.Task3.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688995044013</updated>
       <workItem from="1688995045176" duration="10577000" />
-      <workItem from="1689015076511" duration="1127000" />
+      <workItem from="1689015076511" duration="1172000" />
+      <workItem from="1689066236594" duration="2525000" />
+      <workItem from="1689081792626" duration="1130000" />
+      <workItem from="1689084362887" duration="1637000" />
+      <workItem from="1689091461800" duration="7000" />
+      <workItem from="1689094899293" duration="1288000" />
+      <workItem from="1689281419591" duration="1162000" />
+      <workItem from="1689337330153" duration="4791000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689014448318</created>
@@ -122,7 +148,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689014448318</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add JOIN inheritance type to Vehicle">
+      <created>1689017557903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689017557903</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Final version">
+      <created>1689082689169</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689082689169</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add custom inheritance for Task 3">
+      <created>1689096187773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689096187773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +177,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Add JOIN inheritance type to Vehicle" />
+    <MESSAGE value="Final version" />
+    <MESSAGE value="Add custom inheritance for Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add custom inheritance for Task 3" />
   </component>
 </project>
